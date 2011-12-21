@@ -1,5 +1,5 @@
 var cluster = require('../lib/cluster').cluster;
-var czCluster = require('czagenda-cluster');
+var czCluster = require('openvz-cluster');
 
 var CzagendaApi = require('../lib/containers/czagendaapi').Container;
 czCluster.containerTypes.register(CzagendaApi);

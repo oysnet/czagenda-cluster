@@ -1,6 +1,6 @@
 var settings = require('./settings');
 var log = require('czagenda-log').from(__filename);
-var czCluster = require('czagenda-cluster');
+var czCluster = require('openvz-cluster');
 var async = require('async');
 
 // import containers
