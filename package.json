@@ -1,0 +1,14 @@
+{
+  "name": "czagenda-cluster-management",
+  "description": "Citizen agenda containers and management scripts",
+  "version": "0.0.1",
+  "homepage": "http://czagenda.org",
+  "repository": "git@git.oxys.net:czagenda-cluster",
+  "main": "index",
+  "dependencies": {
+      "async": "= 0.1.15",
+      "czagenda-log": ">= 0.0.1",
+      "openvz-cluster": "= 0.0.1"
+  },
+  "engines": { "node": "*" }
+}
